@@ -1,0 +1,81 @@
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #6b705c;
+    font-weight: 300;
+    border-color: #cb997e;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-width: 1px;
+    padding: 2% 4%;
+    display: inline-block;
+    letter-spacing: 4px;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #6b705c;
+    font-weight: 100;
+    text-decoration: underline;
+    letter-spacing: 2px;
+}
+
+
+#instructiontext {
+    font-style: normal;
+    color: #656d4a;
+    margin-bottom: 5%;
+}
+
+#commands {
+    align-items: center;
+    position: relative;
+    padding-top: 0;
+}
+
+
+ul {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    letter-spacing: 2px;
+    color: #656d4a;
+    margin-top: 0%;
+    margin-bottom: 5%;
+    list-style: none;
+    text-align: start;
+    display: inline-block;
+}
+
+ul span {
+    font-weight: 800;
+    font-style: normal;
+    letter-spacing: 0px;
+}
+
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #cb997e;
+    font-style: italic;
+    letter-spacing: 2px;
+    margin: 1% 10%;
+
+}
+
+div {
+    position: relative;
+    text-align: center;
+    padding-top: 5%;
+}
+
+body {
+    border-color: #b7b7a4;
+    border-style: solid;
+    border-width: 2px;
+    margin: 0% 8%;
+    position: absolute;
+    top: 200px;
+}
+
+html {
+    background-color: #ffe8d6;
+}
