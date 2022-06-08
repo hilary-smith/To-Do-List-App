@@ -23,7 +23,7 @@ h2 {
 #instructiontext {
     font-style: normal;
     color: #656d4a;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
 }
 
 #commands {
@@ -39,7 +39,7 @@ ul {
     letter-spacing: 2px;
     color: #656d4a;
     margin-top: 0%;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
     list-style: none;
     text-align: start;
     display: inline-block;
@@ -58,13 +58,14 @@ p {
     font-style: italic;
     letter-spacing: 2px;
     margin: 1% 10%;
+    padding: 0% 0% 0% 0%;
 
 }
 
 div {
     position: relative;
     text-align: center;
-    padding-top: 5%;
+    padding-top: 2%;
 }
 
 body {
@@ -73,9 +74,49 @@ body {
     border-width: 2px;
     margin: 0% 8%;
     position: absolute;
-    top: 200px;
+    top: 50px;
 }
 
 html {
     background-color: #ffe8d6;
+}
+
+#pictureDiv {
+    position: relative;
+    margin: 0% 6%;
+}
+
+img {
+    position: relative;
+    width: 100%;
+    min-width: 361px;
+    max-width: 785px;
+    padding: 0%;
+}
+
+.attribution {
+    font-size: 11px;
+    letter-spacing: 1;
+    font-style: normal;
+}
+
+a {
+    color: #656d4a;
+}
+
+a:visited {
+    color: #656d4a;
+}
+
+a:active {
+    color: #a3ad7f;
+}
+
+
+a:hover {
+    color: #a3ad7f;
+}
+
+#heading {
+    min-width: 416px;
 }
