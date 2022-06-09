@@ -135,8 +135,14 @@ a:hover {
 }
 
 @media only screen and (max-height: 820px) {
+    html {
+        max-width: 440px;
+    }
+
     body {
         margin-left: 2%;
+        max-width: 436px;
+        margin: 10px;
     }
 
     h1 {
