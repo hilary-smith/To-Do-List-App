@@ -149,6 +149,7 @@ a:hover {
         font-size: 20px;
         transition: all 1s ease-in-out, left 1.5s ease-in-out;
         letter-spacing: 2;
+        padding: 2% 0%;
     }
 
     h2 {
