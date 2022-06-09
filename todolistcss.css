@@ -136,12 +136,12 @@ a:hover {
 
 @media only screen and (max-height: 820px) {
     body {
-        margin-left: 0%;
+        margin: 0%;
     }
 
     div {
         transition: all 1s ease-in-out, left 1.5s ease-in-out;
-        margin-left: 0%;
+        margin: 0%;
     }
 
     h1 {
@@ -167,6 +167,11 @@ a:hover {
     img {
         max-width: 250px;
         min-width: 100px;
+        transition: all 1s ease-in-out, left 1.5s ease-in-out;
+    }
+
+    .attribution {
+        font-size: 6px;
         transition: all 1s ease-in-out, left 1.5s ease-in-out;
     }
 
