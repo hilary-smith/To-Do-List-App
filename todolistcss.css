@@ -148,11 +148,13 @@ a:hover {
     h1 {
         font-size: 20px;
         transition: all 1s ease-in-out, left 1.5s ease-in-out;
+        letter-spacing: 2;
     }
 
     h2 {
         font-size: 16px;
         transition: all 1s ease-in-out, left 1.5s ease-in-out;
+        letter-spacing: 2;
     }
 
     p {
