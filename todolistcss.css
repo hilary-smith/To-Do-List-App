@@ -74,7 +74,7 @@ body {
     border-width: 2px;
     margin: 0% 8%;
     position: absolute;
-    top: 50px;
+    top: 30px;
 }
 
 html {
@@ -119,4 +119,28 @@ a:hover {
 
 #heading {
     min-width: 416px;
+}
+
+@media only screen and (max-height: 820px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    li {
+        font-size: 14px;
+    }
+
+    img {
+        max-width: 250px;
+        min-width: 100px;
+    }
+
 }
