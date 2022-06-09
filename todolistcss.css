@@ -141,7 +141,7 @@ a:hover {
 
     div {
         transition: all 1s ease-in-out, left 1.5s ease-in-out;
-        margin-left: 10px;
+        margin-left: 0%;
     }
 
     h1 {
