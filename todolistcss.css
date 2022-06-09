@@ -122,25 +122,34 @@ a:hover {
 }
 
 @media only screen and (max-height: 820px) {
+    div {
+        transition: all 1s ease-in-out, left 1.5s ease-in-out;
+    }
+
     h1 {
         font-size: 20px;
+        transition: all 1s ease-in-out, left 1.5s ease-in-out;
     }
 
     h2 {
         font-size: 16px;
+        transition: all 1s ease-in-out, left 1.5s ease-in-out;
     }
 
     p {
         font-size: 14px;
+        transition: all 1s ease-in-out, left 1.5s ease-in-out;
     }
 
     li {
         font-size: 14px;
+        transition: all 1s ease-in-out, left 1.5s ease-in-out;
     }
 
     img {
         max-width: 250px;
         min-width: 100px;
+        transition: all 1s ease-in-out, left 1.5s ease-in-out;
     }
 
 }
