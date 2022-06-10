@@ -1,5 +1,5 @@
 setTimeout(function () {
-    let input = prompt('Hello. Welcome to your To Do List. What would you like to do?');
+    let input = prompt("Hello! Welcome to your To Do List. What would you like to do? \n Please type 'new', 'list', 'delete', or 'quit'.");
     const todos = ['Add an item to my list'];
     const s = undefined;
     todos[1] = s || '* empty *';
