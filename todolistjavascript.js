@@ -27,7 +27,11 @@ setTimeout(function () {
             if (!Number.isNaN(delItem) && delItem < todos.length) {
                 const deleted = todos.splice(delItem, 1);
                 console.log(`${deleted} was removed.`);
-                input = prompt(`"${deleted}" was removed!\n Type 'list' to see your new list. \n Otherwise, please type 'new ', 'delete ', or 'quit'.`);
+                const userList = todos.map(function (todoItem) {
+                    const todoItemNum = todos.indexOf(todoItem);
+                    return `${todoItemNum + 1}. ${todoItem}\n`;
+                }).join(' ');
+                input = prompt(`"${deleted}" was removed!\n Here is the updated list: \n ${userList} \n Otherwise, please type 'new ', 'delete ', or 'quit'.`);
             }
             else {
                 console.log('Unknown index');
